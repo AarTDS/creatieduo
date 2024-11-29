@@ -3,8 +3,12 @@
     
 }
 
+.topimage img {
+    width: 100%;
+}
+
 .section ul {
-    position: absolute;
+    position: relative;
     top: 30%;
     padding: 0;
     width: 600px;
