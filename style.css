@@ -1,21 +1,9 @@
-body {
-    margin: 0%;
-}
 * {
     font-family:Arial, Helvetica, sans-serif;
     
 }
 
-.section a {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    text-decoration: none;
-    color: black;
-    padding: 10px 41px 10px 10px;
-    transition: all 0.5s;
-}
-
-ul {
+.section ul {
     position: absolute;
     top: 30%;
     padding: 0;
@@ -24,37 +12,46 @@ ul {
     left: 50%;
 }
 
-li {
+.section li {
     list-style-type: none;
     display: inline;
     font-size: 200%;
     font-weight: bolder;
 }
 
-hr {
-    border-bottom: 6px solid black;
+.section li a {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 41px 10px 10px;
+    transition: all 0.5s;
 }
 
-a.\31:hover {
+.section a.\31:hover {
     color: rgb(255, 0, 0);
     background-color: rgba(255, 0, 0, 0.349);
     border-bottom: 5px solid rgb(255, 0, 0);
 }
 
-a.\32:hover {
+.section a.\32:hover {
     color: rgb(0, 0, 255);
     background-color: rgba(0, 0, 255, 0.349);
     border-bottom: 5px solid rgb(0, 0, 255);
 }
 
-a.\33:hover {
+.section a.\33:hover {
     color: rgb(155, 155, 4);
     background-color: rgba(155, 155, 4, 0.349);
     border-bottom: 5px solid rgb(155, 155, 4);
 }
 
-a.\34:hover {
+.section a.\34:hover {
     color: rgb(7, 117, 7);
     background-color: rgba(7, 117, 7, 0.349);
     border-bottom: 5px solid rgb(7, 117, 7);
+}
+
+.section hr {
+    border-bottom: 6px solid black;
 }
